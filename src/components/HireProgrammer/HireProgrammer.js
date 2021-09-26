@@ -16,6 +16,7 @@ const HireProgrammer = () => {
         const NewHire = [...hired, programmer];
         setWhoHired(NewHire);
     };
+
     return (
         <section className="container">
             <div className="programmer-container">
