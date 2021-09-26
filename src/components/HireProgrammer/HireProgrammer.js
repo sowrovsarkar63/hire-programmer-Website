@@ -1,21 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import SingleProgrammer from "../SingleProgrammer/SingleProgrammer";
 import "./HireProgrammer.css";
 const HireProgrammer = () => {
+    const [singleProgrammer, setProgrammer] = useState([]);
     useEffect(() => {
         fetch("./programmerList.JSON")
             .then((res) => res.json())
-            .then((data) => console.log(data));
+            .then((data) => setProgrammer(data));
     }, []);
     return (
         <section className="container">
             <div className="programmer-container">
-                <div className="single-programmer">
-                    <h2>Hasin Hayder</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Eaque, soluta.
-                    </p>
-                </div>
+                {singleProgrammer.map((programmer) => (
+                    <SingleProgrammer
+                        key={programmer.key}
+                        programmer={programmer}
+                    ></SingleProgrammer>
+                ))}
             </div>
             <section className="cart-section">
                 <h2>Cart</h2>

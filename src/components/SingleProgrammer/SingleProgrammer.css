@@ -1,0 +1,13 @@
+.single-programmer {
+    width: 300px;
+    min-height: 300px;
+    text-align: center;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    line-height: 40px;
+}
+.single-programmer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
