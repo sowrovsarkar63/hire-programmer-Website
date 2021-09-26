@@ -2,13 +2,35 @@
     width: 300px;
     min-height: 300px;
     text-align: center;
-    border: 1px solid lightgray;
+    background: linear-gradient(
+        0deg,
+        rgba(104, 47, 248, 1) 24%,
+        rgba(192, 94, 197, 1) 100%
+    );
+    border-radius: 10px;
     overflow: hidden;
     line-height: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(219, 219, 219, 0.75);
+    color: #fff;
 }
 .single-programmer img {
     width: 100px;
     height: 100px;
     border-radius: 50px;
     margin: 10px;
+}
+.hiring-btn {
+    background: linear-gradient(90deg, rgb(103, 40, 145) 19%, #ff7f50 100%);
+    margin: 15px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    cursor: pointer;
+}
+.hiring-btn:hover {
+    background: linear-gradient(90deg, #ff7f50 100%, rgb(103, 40, 145) 19%);
 }

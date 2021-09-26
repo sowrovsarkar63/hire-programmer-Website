@@ -16,14 +16,16 @@ const HiringDetails = (props) => {
             <h1>Total Hiring Details</h1>
 
             <h3>Programmer Added : {hired.length}</h3>
-            <h3>Total Cost : {totalCost}</h3>
-
+            <h3>Total Cost : ${totalCost}</h3>
+            <h3>Hired List</h3>
             {/* Show the name who actually hired  */}
             <ul>
                 {hired.map((devName) => (
                     <li key={devName.key}>{devName.name}</li>
                 ))}
             </ul>
+
+            <button className="cart-btn">Start Hire</button>
         </div>
     );
 };

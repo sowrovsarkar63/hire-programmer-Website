@@ -1,7 +1,12 @@
 .hiring-details {
     text-align: center;
-    background-color: gray;
-    height: 300px;
+    background: linear-gradient(
+        90deg,
+        rgba(229, 0, 255, 1) 1%,
+        rgba(40, 26, 181, 1) 100%
+    );
+    border-radius: 10px;
+    min-height: 300px;
     color: white;
 }
 
@@ -12,4 +17,31 @@
     font-family: "Courier New", Courier, monospace;
     padding: 10px;
     border-bottom: 1px solid;
+}
+
+.hiring-details h3 {
+    line-height: 40px;
+}
+
+.hiring-details ul {
+    list-style-type: none;
+}
+.hiring-details ul > li {
+    border-bottom: 1px solid #c7c411;
+    margin: 15px;
+    padding: 5px;
+}
+.cart-btn {
+    background-color: coral;
+    margin: 15px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.cart-btn:hover {
+    background-color: rgb(75, 27, 10);
 }

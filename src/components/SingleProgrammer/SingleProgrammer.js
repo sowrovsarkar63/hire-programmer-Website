@@ -1,5 +1,8 @@
+import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./SingleProgrammer.css";
+
 function SingleProgrammer(props) {
     const { name, expertise, age, country, cost, photo } = props.programmer;
     return (
@@ -14,7 +17,7 @@ function SingleProgrammer(props) {
                 onClick={() => props.HandleHiringProcces(props.programmer)}
                 className="hiring-btn"
             >
-                HIRE
+                <FontAwesomeIcon icon={faArrowAltCircleRight} /> Hire Now
             </button>
         </div>
     );
