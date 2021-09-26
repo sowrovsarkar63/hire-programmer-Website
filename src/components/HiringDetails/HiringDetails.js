@@ -25,7 +25,8 @@ const HiringDetails = (props) => {
                 ))}
             </ul>
 
-            <button className="cart-btn">Start Hire</button>
+            {/* details button   */}
+            <button className="cart-btn">Calculate & Hire</button>
         </div>
     );
 };

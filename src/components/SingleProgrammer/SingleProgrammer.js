@@ -4,8 +4,10 @@ import React from "react";
 import "./SingleProgrammer.css";
 
 function SingleProgrammer(props) {
+    // destructure programmer from props
     const { name, expertise, age, country, cost, photo } = props.programmer;
     return (
+        // single programmer profile
         <div className="single-programmer">
             <img className="dev-img" src={photo} alt="" />
             <h3>{name}</h3>
