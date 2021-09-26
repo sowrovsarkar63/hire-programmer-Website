@@ -10,6 +10,13 @@ function SingleProgrammer(props) {
             <h4>Age : {age}</h4>
             <h4>Country : {country}</h4>
             <h4>Cost : ${cost}</h4>
+            {console.log(props)}
+            <button
+                onClick={() => props.HandleHiringProcces(props.programmer)}
+                className="hiring-btn"
+            >
+                HIRE
+            </button>
         </div>
     );
 }
