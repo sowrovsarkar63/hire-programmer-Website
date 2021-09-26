@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Md Hasin Hyder",
+        "expertise": "WordPress Ninja",
+        "age": 42,
+        "country": "BD",
+        "cost": 142000,
+        "photo": "https://avatars.githubusercontent.com/u/36967823?s=280&v=4"
+    },
+    {
+        "name": "Jhankar Mahabub",
+        "expertise": "JavaScript Developer",
+        "age": 32,
+        "country": "BD",
+        "cost": 132000,
+        "photo": "https://qph.fs.quoracdn.net/main-thumb-19233458-200-bOipoRLBNvrrPxLmBkUUCAW4HDDDwDyX.jpeg"
+    },
+    {
+        "name": "Jaheed Sabur",
+        "expertise": "Android Programmer",
+        "age": 30,
+        "country": "BD",
+        "cost": 232000,
+        "photo": "https://lh3.googleusercontent.com/proxy/b_taM7b-wc1Um7r1ddZdw-9wOo82SLS0WQXQA2N6zYIfr4N5ipw0VJWaYU7x_Ao1yvTv_S6XU38F4KPIjsOhwGTFjWOsPhpwUmJRiS_bviK-h9RrhQK59JCVPAJHE6z7jB1KJ22iTg"
+    },
+    {
+        "name": "Dennis Ritchie",
+        "expertise": "God Of C Programming",
+        "age": 70,
+        "country": "USA",
+        "cost": 432000,
+        "photo": "https://media.wired.com/photos/59327f14f682204f73696455/master/pass/ritchie_HP.jpg"
+    },
+    {
+        "name": "Tanmoy Bakshi",
+        "expertise": "Alogorithm Designer",
+        "age": 19,
+        "country": "Indian",
+        "cost": 232000,
+        "photo": "https://biographyly.com/wp-content/uploads/2019/09/Tanmay-Bakshi.jpg"
+    },
+    {
+        "name": "Guido van Rossum",
+        "expertise": "Python Ninja",
+        "age": 55,
+        "country": "USA",
+        "cost": 332000,
+        "photo": "https://www.unixmen.com/wp-content/uploads/2015/10/GuidoAvatar_400x400.jpg"
+    },
+    {
+        "name": "Linus Troval",
+        "expertise": "System Programmer",
+        "age": 57,
+        "country": "USA",
+        "cost": 532000,
+        "photo": "https://cdn.britannica.com/w:400,h:300,c:crop/99/124299-050-4B4D509F/Linus-Torvalds-2012.jpg"
+    },
+    {
+        "name": "Tim Barnars Lee",
+        "expertise": "System Programmer",
+        "age": 80,
+        "country": "USA",
+        "cost": 262000,
+        "photo": "https://cdn.britannica.com/w:400,h:300,c:crop/22/221822-050-3B0A657F/British-scientist-Tim-Berners-Lee.jpg"
+    },
+    {
+        "name": "Bill Gates",
+        "expertise": "Back-End Coder",
+        "age": 90,
+        "country": "USA",
+        "cost": 112000,
+        "photo": "https://e7.pngegg.com/pngimages/591/944/png-clipart-bill-gates-quotes-bill-gates-quotes-quotations-famous-quotes-bill-melinda-gates-foundation-microsoft-technology-bill-gates.png"
+    },
+    {
+        "name": "Mark Zuckerberg ",
+        "expertise": "Php Coder",
+        "age": 40,
+        "country": "USA",
+        "cost": 212000,
+        "photo": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5c76b7d331358e35dd2773a9%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D4401%26cropY1%3D0%26cropY2%3D4401"
+    }
+]
