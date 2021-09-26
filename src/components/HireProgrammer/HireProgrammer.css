@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 30px;
+}
+
+.programmer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 15px;
+}
+.single-programmer {
+    text-align: center;
+    border: 1px solid lightgray;
+}
