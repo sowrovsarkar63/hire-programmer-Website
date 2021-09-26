@@ -1,0 +1,15 @@
+.hiring-details {
+    text-align: center;
+    background-color: gray;
+    height: 300px;
+    color: white;
+}
+
+.hiring-details h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px;
+    border-bottom: 1px solid;
+}

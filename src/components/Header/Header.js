@@ -6,7 +6,8 @@ const Header = () => {
         <div>
             <header className="header-area">
                 <h1>
-                    World Class<span className="highlight"> Programmer</span>
+                    Hire World Class
+                    <span className="highlight"> Programmer</span>
                 </h1>
                 <p>
                     World Is Very Competitive Now A Days. That's Why You Need

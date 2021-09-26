@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import HiringDetails from "../HiringDetails/HiringDetails";
 import SingleProgrammer from "../SingleProgrammer/SingleProgrammer";
 import "./HireProgrammer.css";
 const HireProgrammer = () => {
@@ -26,8 +27,8 @@ const HireProgrammer = () => {
                     ></SingleProgrammer>
                 ))}
             </div>
-            <section className="cart-section">
-                <h2>Cart</h2>
+            <section className="Cart">
+                <HiringDetails hired={hired}></HiringDetails>
             </section>
         </section>
     );
