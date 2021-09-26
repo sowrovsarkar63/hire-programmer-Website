@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-area {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 4px;
+    line-height: 40px;
+}
+
+.header-area h1 {
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+.highlight {
+    color: coral;
+}
